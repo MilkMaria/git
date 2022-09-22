@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url(./MacBook\ -\ 1.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+/*CONTAINER*/
+.container {
+    max-width: 1030px;
+    margin: 60px auto;
+}
+
+/*HEADER*/
+
+.header-logo {
+    font-weight: 700;
+    font-size: 23px;
+}
+
+ .a{
+    margin-left: 54px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 83px;
+}
+
+.header-nav__button {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 57px;
+    padding: 13px 24px;
+    background-color: #FC4754;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*CONTENT-LEFT*/
+
+.line {
+    margin-left: 12px;
+    margin-top: 40px;
+    border-left: 2px solid #fff;
+     height: 61px;
+}
+
+h1 {
+    font-size: 50px;
+    max-width: 487px;
+}
+p {
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 354px;
+}
+.lft__btn
+{
+    display: flex;
+}
+.btn__1 {
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 24px;
+    background-color: #FC4754;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn__2 {
+    margin-top: 18px;
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 24px;
+    border: 2px;
+    border: solid;
+    border-color:rgba(146, 42, 60, 1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*CONTENT-RIGHT*/
+
+.content-right {
+    position: relative;
+    left: 70px;
+    margin-top: 50px;
+}
+.content-right__stats_1{
+    right: 200px;
+    top: 290px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    width: 417px;
+    height: 84px;
+    backdrop-filter: blur(8px);
+    background: rgba(255, 254, 254, 0.23);
+    float: right;
+    border-radius: 5px;
+}
+ 
+.rgt_stat_text {
+    color: #fff;
+}
+.in_stats {
+    padding: 20px;
+    color:rgba(255, 255, 255, 0.7);
+    max-width: 92px;
+}
+.in_stats-2{
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 129px;
+}
+
+.btn_rgt {
+    text-transform: uppercase;
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    width: 130px;
+    margin-top: 16px;
+    margin-right: 13px;
+    margin-bottom: 15px;
+    padding: 14px 24px;
+    border: 2px;
+    border: solid;
+    background-color: rgba(252, 71, 84, 0.98);
+    border-color:rgba(255, 130, 139, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+.content-right__img {
+    margin-top: 30px;
+    z-index: 1;
+    position: absolute;
+}
+.content-right__rectangle_0 {
+    position: absolute;
+    z-index: -1;
+    margin-left: 19px;
+    width: 301px;
+    height: 374px;
+    border: 2px solid;
+    border-color: rgba(252, 71, 84, 0.5);
+}
+.content-right__rectangle_1 {
+    position: absolute;
+    z-index: -1;
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 301px;
+    height: 374px;
+    border: 2px solid;
+    border-color: rgba(252, 71, 84, 0.5);
+}
+
+.content-right__rectangle_2 {
+    position: absolute;
+    margin-left: 6px;
+    z-index: -1;
+    margin-top: 20px;
+    width: 301px;
+    height: 374px;
+    border: 2px solid;
+    border-color: rgba(252, 71, 84, 0.5);
+}
+
+/*STATS*/
+
+.content-left__stats {
+    display: flex;
+}
+
+.users__stats {
+    max-width: 82px;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.users__artworks, .users__artists{
+    max-width: 82px;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 28px;
+}
+
+.text_stat {
+    color:rgba(255, 255, 255, 0.7);
+    vertical-align: text-top;
+    font-size: 15px;
+}

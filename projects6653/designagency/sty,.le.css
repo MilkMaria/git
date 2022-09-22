@@ -1,0 +1,122 @@
+/*Flex Box*/
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+    /*-------First slide-----------*/
+
+    .container_0 {
+        flex-direction: column;
+        left: 200px;
+        position: absolute;
+        max-width: 450px;
+        max-height: 620px;
+
+    }
+    
+#logo_style {
+    font-family: 'Comfortaa', cursive;
+    color: rgba(187, 187, 187, 1);
+    font-size: 29px;
+}
+#Frase_0 {
+    margin-top: 150px;
+    font-size: 22px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+    color: rgba(91, 91, 91, 1)
+}
+#Frase_1 {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(17, 17, 17, 1);
+    font-size: 55px;
+    font-weight: 200;
+}
+.colorfull_leter{
+color: rgba(236, 87, 17, 1);
+}
+.menu {
+    max-width: 500px;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    top: 40px;
+    left: 1300px;
+}
+.menu, a {
+    text-decoration: none;
+}
+.menu, a:hover{
+    color: rgba(236, 87, 17, 1);
+    transition: 0.6s;
+}
+.button {
+    margin-top: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    width: 180px;
+    height: 50px;
+border: 2px solid  rgba(64, 64, 64, 1);;
+border-radius: 50px;
+text-decoration: none;
+color: rgba(64, 64, 64, 1);
+font-size: 18px;
+font-weight: 800;
+font-family: 'Comfortaa', cursive;
+}
+.pic_right {
+    top: 100px;
+   left: 1000px;
+   position: absolute;
+}
+
+.button:hover{
+    transition: 0.6s;
+    background-color: black;
+}
+.container_1 {
+    position: relative;
+    left: 100px;
+    top: 700px;
+    margin: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    max-height: 900px;
+}
+p:hover {
+    color: rgb(31, 28, 47);
+    transition: 0.8s;
+}
+.t{
+    max-width: 720px;
+    max-height: 500px;
+    position: relative;
+    display: flex;
+    left: 100px;
+    top: 590px;
+    margin: 100px 100px;
+    justify-content: space-between;
+    font-family: 'Comfortaa', cursive;
+    color: rgba(236, 87, 17, 1);
+    font-weight: 200;
+    font-size: 24px;
+}
+p {
+    max-width: 100px;
+}
+
+.iconify{
+    color: #ec5711;
+    width: 64px; 
+    height: 64px;
+}
+
+.iconify:hover {
+    transition: 0.8s;
+    color: black;
+}
